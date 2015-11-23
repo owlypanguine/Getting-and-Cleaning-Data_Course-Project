@@ -26,7 +26,7 @@ To get the features list, the script reads "features.txt" into R and extracts it
 After assigning variable names to the data set, regular expression operations are used to separate out variable names that indicate mean and standard deviation measurements for each (non-ID) feature in the data set. These are the measurements
 we want to extract and keep. After obtaining the final list of relevant variable names this way, only the relevant measurements are extracted from "merged" and placed into a new data set, "mean_std".
 
-#Step 3
+##Step 3
 
 The activity labels under the "Activity" column are presently numeric values ranging from 1 to 6. "activity_labels.txt" tells us that the numbers correspond to activities like so:
 
@@ -39,11 +39,11 @@ The activity labels under the "Activity" column are presently numeric values ran
 
 The script relabels the activity values accordingly. The activity labels are then placed into the data frame. 
 
-#Step 4
+##Step 4
 
 The data was previously labelled in Step 2. This step uses regular expression operations to re-label the feature variable names to make them more descriptive and readable. The new variable names are then placed into the data frame. 
 
-#Step 5
+##Step 5
 
 This step uses plyr operations to create a new, tidy data set that contains the average of each feature variable grouped by activity and subject. 
 
