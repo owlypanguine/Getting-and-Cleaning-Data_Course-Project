@@ -99,7 +99,7 @@ See 'About the original data set' and 'features_info.txt'
 <p><strong>FreqBodyBodyGyroJerkMagnitude-mean</strong>
 <p><strong>FreqBodyBodyGyroJerkMagnitude-std</strong>
 
-##Changes Made from the Original Dataset
+##Differences from the original data set
 
 The activity labels, which were numeric values ranging from 1 to 6, were replaced with the corresponding descriptive labels from "activity_labels.txt".
 
@@ -114,7 +114,7 @@ From "activity_labels.txt":
 
 The feature variables included in the "tidy data set" include only measurements on the mean and standard deviation for each filter, per the assignment instructions. These were selected based on whether or not the variable names included "mean()" or "std()".
 
-The following variables were not included:
+The following variables from the original data set were not included:
 
 * gravityMean
 * tBodyAccMean
@@ -130,7 +130,7 @@ The variable names were edited to be more descriptive and readable. Specifically
 * "Acc" was changed to "Acceleration"
 * the "()" in many of the variable names were removed
 
-I elected to keep the variable names mostly as they were to avoid error on my part, and also because they seemed already fairly descriptive, especially with the descriptions provided along with the data set.
+I elected to keep the variable names mostly as they were, firstly to avoid error on my part, and also because they already seemed fairly descriptive, especially with the explanations provided along with the original data set.
 
 ##Source
 <p>Human Activity Recognition Using Smartphones Dataset (Version 1.0)
