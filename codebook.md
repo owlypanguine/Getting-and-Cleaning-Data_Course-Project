@@ -1,6 +1,6 @@
-###Code Book
+#Code Book
 
-#####About the original data set
+##About the original data set
 
 The data set used to create the "tidy data set" for this project comes from a set of experiments that used wearable smartphones (Samsung Galaxy S II) to measure acceleration and velocity in human subjects during six different activities (walking, walking upstairs, walking downstairs, sitting, standing, and laying down). 
 
@@ -10,7 +10,7 @@ A total of 561 features were measured. These consist of acceleration and velocit
 
 See the README.txt file in the UCI HAR data set for more details. 
 
-#####List of variables (total count: 68)
+##List of variables (total count: 68)
 
 ####ID variables (count: 2)
 
@@ -20,9 +20,9 @@ Units: N/A
 * Walking
 * Walking Upstairs
 * Walking Downstairs
-<p><p>Sitting
-<p><p>Standing
-<p><p>Laying
+* Sitting
+* Standing
+* Laying
 
 <p><strong>Subject</strong> - subject ID number, ranging from 1 to 30
 
