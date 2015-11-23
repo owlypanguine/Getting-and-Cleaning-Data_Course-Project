@@ -99,7 +99,7 @@ See 'About the original data set' and 'features_info.txt'
 <p><strong>FreqBodyBodyGyroJerkMagnitude-mean</strong>
 <p><strong>FreqBodyBodyGyroJerkMagnitude-std</strong>
 
-#####Changes Made from the Original Dataset
+##Changes Made from the Original Dataset
 
 The activity labels, which were numeric values ranging from 1 to 6, were replaced with the corresponding descriptive labels from "activity_labels.txt".
 
