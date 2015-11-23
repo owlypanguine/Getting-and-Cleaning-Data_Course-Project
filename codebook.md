@@ -30,7 +30,10 @@ Units: N/A
 
 Units: None. The measures were normalized to a range of [-1, 1]. 
 
-See 'About the original data set' and 'features_info.txt'
+"Time" indicates time domain variables. "Freq" indicates frequency domain variables. 
+"mean" indicates that the values are means of specific measurements, and "std" indicates that the values are standard deviations. The "XYZ" values represent axial signals in the X, Y, and Z directions.
+
+See 'About the original data set' and 'features_info.txt'.
 
 <p><strong>TimeBodyAcceleration-mean-X</strong>
 <p><strong>TimeBodyAcceleration-mean-Y</strong>
