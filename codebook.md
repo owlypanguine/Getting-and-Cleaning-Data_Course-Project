@@ -105,22 +105,22 @@ The activity labels, which were numeric values ranging from 1 to 6, were replace
 
 From "activity_labels.txt":
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+<p><p>1 WALKING
+<p><p>2 WALKING_UPSTAIRS
+<p><p>3 WALKING_DOWNSTAIRS
+<p><p>4 SITTING
+<p><p>5 STANDING
+<p><p>6 LAYING
 
 The feature variables included in the "tidy data set" include only measurements on the mean and standard deviation for each filter, per the assignment instructions. These were selected based on whether or not the variable names included "mean()" or "std()".
 
 The following variables were not included:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+* gravityMean
+* tBodyAccMean
+* tBodyAccJerkMean
+* tBodyGyroMean
+* tBodyGyroJerkMean
 
 This is because according to "features_info.txt", these are "additional vectors obtained by averaging the signals in a signal window sample".
 
@@ -132,10 +132,10 @@ The variable names were edited to be more descriptive and readable. Specifically
 
 I elected to keep the variable names mostly as they were to avoid error on my part, and also because they seemed already fairly descriptive, especially with the descriptions provided along with the data set.
 
-#####Source
+##Source
 <p>Human Activity Recognition Using Smartphones Dataset (Version 1.0)
-Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
-Smartlab - Non Linear Complex Systems Laboratory
-Università degli Studi di Genova
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+<p>Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+<p>Smartlab - Non Linear Complex Systems Laboratory
+<p>Università degli Studi di Genova
+<p>http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
